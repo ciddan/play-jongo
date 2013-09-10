@@ -6,7 +6,7 @@ import de.johoop.findbugs4sbt.FindBugs._
 object ApplicationBuild extends Build {
 
     val appName         = "play-jongo"
-    val appVersion      = "0.4"
+    val appVersion      = "0.5"
 
     val appDependencies = Seq(
       "org.mongodb" % "mongo-java-driver" % "2.11.1",
